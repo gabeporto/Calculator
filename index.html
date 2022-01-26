@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/dc4f378b27.js" crossorigin="anonymous"></script>
+    <title>MyCalculator</title>
+</head>
+
+
+<body>
+    <div class="title"><h1>MyCalculator made by Gabriel Porto</h1></div>
+    <div class="content">
+        <div class="calculator">
+            <p class="result" id="resultado"></p>
+
+        <table>
+
+            <tr>
+                <td><button class="btn AC" style="width: 106px;" onclick="clean()"> AC </button> </td>
+
+                <td><button class="btn Backspace" onclick="backspace()"> <i class="fas fa-backspace"> </i> </button> </td>
+
+                <td><button class="btn Operator" onclick="insert('/')"> / </i> </button> </td>
+
+            </tr>
+
+            <tr>
+                <td><button class="btn" onclick="insert('7')"> 7 </button></td>
+                <td><button class="btn" onclick="insert('8')"> 8 </button></td>
+                <td><button class="btn" onclick="insert('9')"> 9 </button></td>
+                <td><button class="btn Operator" onclick="insert('*')"> * </button></td>
+            </tr>
+
+            <tr>
+                <td><button class="btn" onclick="insert('4')"> 4 </button></td>
+                <td><button class="btn" onclick="insert('5')"> 5 </button></td>
+                <td><button class="btn" onclick="insert('6')"> 6 </button></td>
+                <td><button class="btn Operator" onclick="insert('-')"> - </button></td>
+            </tr>
+
+            <tr>
+                <td><button class="btn" onclick="insert('1')"> 1 </button></td>
+                <td><button class="btn" onclick="insert('2')"> 2 </button></td>
+                <td><button class="btn" onclick="insert('3')"> 3 </button></td>
+                <td><button class="btn Operator" onclick="insert('+')"> + </button></td>
+            </tr>
+
+            <tr>
+                <td><button class="btn" onclick="insert('0')"> 0 </button></td>
+                <td><button class="btn" onclick="insert('.')"> . </button></td>
+                <td><button class="btn Equal" style="width: 106px;" onclick="confirm()"> = </button></td>
+            </tr>
+
+        </table>
+
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+<script></script>
